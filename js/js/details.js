@@ -159,7 +159,13 @@ require(['../../config'],function(){
 			$('.filter').hide();
 			$('.big').hide();
 		});
-
+		/*+++++++++++++++++选项卡++++++++++++++++++++*/
+		$('.detail_tab ul li').click(function(){
+			$(this).addClass('active').siblings().removeClass('active');
+			var index = $(this).index();
+			$('.detail_box').eq(index).show();
+			$('.detail_box').eq(index).siblings().hide();
+		})
 
 
 
