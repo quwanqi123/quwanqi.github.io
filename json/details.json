@@ -1,0 +1,21 @@
+{
+	"goods_id": 10001,
+	"goods_name": "小台农芒果475-525g/份",
+	"goods_price": 148.00,
+	"goods_pic_small": "img/xmg-1.jpg",
+	"goods_pic_large": "img/xmg-1.jpg",
+	"color": {
+		"1000101": {
+			"id": "1000101",
+			"type": "优质芒果",
+			"sale_price": "19.80",
+			"stock": 12
+		},
+		"1000102": {
+			"id": "1000102",
+			"type": "普通芒果",
+			"sale_price": "9.80",
+			"stock": 74
+		}
+	}
+}
