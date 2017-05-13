@@ -134,7 +134,7 @@ require(['../../config'],function(){
 		$('.imgworp li a').mouseenter(function(){
 			$(this).addClass('active').parent().siblings().find('a').removeClass('active');
 			var src=$(this).find('img').attr("src");
-			$('.l-t img').attr({src:src});
+			$('.b-left .l-t img').attr({src:src});
 			$('.big img').attr({src:src});
 		});
 
